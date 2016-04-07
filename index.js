@@ -7,11 +7,9 @@ var mg = require('nodemailer-mailgun-transport');
 // Create application/x-www-form-urlencoded parser
 var urlencodedParser = bodyParser.urlencoded({ extended: false })
 
-app.use(express.static('public'));
+app.set('port', (process.env.PORT || 5000));
 
-app.get('/index.htm', function (req, res) {
-   res.sendFile( __dirname + "/" + "index.htm" );
-})
+app.use(express.static(__dirname + '/public'));
 
 app.post('/process_post', urlencodedParser, function (req, res) {
 
@@ -65,11 +63,18 @@ var nodemailerMailgun = nodemailer.createTransport(mg(auth));
 })
 
 
-var server = app.listen(8080, function () {
+app.listen(app.get('port'), function() {
+  console.log('Node app is running on port', app.get('port'));
+});
 
-  var host = process.env.IP
-  var port = process.env.PORT
+//var server = app.listen(8080, function () {
 
-  console.log("Example app listening at http://%s:%s", host, port)
+//  var host = process.env.IP
+//  var port = process.env.PORT
 
-})
+//  console.log("Example app listening at http://%s:%s", host, port)
+
+//})
+
+
+
