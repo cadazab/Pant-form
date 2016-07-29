@@ -2,7 +2,7 @@
 
 For use in partners websites.
 The data entered on the form will be sent to Pantaenius.
-To see a preview of the form, click in the next link: [Form](https://cadazab.github.io/Pant-form/)
+to see a preview of the form, please click the following link: [Form](https://cadazab.github.io/Pant-form/)
 
 #Add the Pantaenius form on your website
 
