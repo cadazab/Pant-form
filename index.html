@@ -29,7 +29,7 @@
 <script type="text/javascript">
   document.getElementById('url').value = document.URL 
 </script>
-	
+  
 <div class="container">
 <hr width=60% align=left>
 
@@ -43,7 +43,7 @@
           
               <input type="text" class="form-control" id="marke" name="marke" ng-model="marke" required>
               <p ng-show="myForm.marke.$touched && myForm.marke.$invalid">
-				Bitte geben Sie den Mark</p>
+        Bitte geben Sie den Mark</p>
             
           </div>
         </div>
@@ -110,7 +110,7 @@
         <div class="form-group">
           <h4><label class="col-sm-5">Wert Trailer:</label></h4>
           <div class="col-sm-7">
-          		<div class="input-group">
+              <div class="input-group">
               <input type="text" class="form-control" id="werttrailer" name="werttrailer" ng-model="werttrailer" ng-pattern="/^[0-9]+([,.][0-9]+)?$/" required><span class="input-group-addon">&euro;</span>
               </div>
                <p ng-show="myForm.werttrailer.$touched && myForm.werttrailer.$invalid">
@@ -178,7 +178,7 @@
 
            <div class="col-sm-3">
               <select class="form-control" name="ML">
-              		<option>PS</option>
+                  <option>PS</option>
                     <option>KW</option>
               </select>
 
@@ -191,7 +191,7 @@
 
           <h4><label class="col-sm-5">Wert AB:</label></h4>
           <div class="col-sm-7">
-          	<div class="input-group">
+            <div class="input-group">
               <input type="text" class="form-control" id="wertab" name="wertab" ng-model="wertab" ng-pattern="/^[0-9]+([,.][0-9]+)?$/" required>
               <span class="input-group-addon">&euro;</span>
               </div>
@@ -202,9 +202,21 @@
       </div>
     </div>
 
-   
-        
+    <div class="row">
+      <div class="col-md-5">
+        <div class="form-group">
+            <h4><label class="col-sm-5">Fahrtgebiet:</label></h4>
+            <div class="col-sm-7">
+              <select class="form-control" name="fahrtgebiet">
+                <option>Europa Küste</option>
+                <option>Europa Binnen</option>
+              </select>
+            </div>
+        </div>
+      </div>
+    </div>
 
+   
     <hr width=60% align=left>
 
     
@@ -231,7 +243,7 @@
           <div class="col-sm-7">
               <input type="text" class="form-control" id="nachname" name="nachname" ng-model="nachname" required>
               <p ng-show="myForm.nachname.$touched && myForm.nachname.$invalid">
-				Nachname ist erforderlich</p>
+        Nachname ist erforderlich</p>
           </div>
         </div>
       </div>
@@ -242,7 +254,7 @@
           <div class="col-sm-7">
               <input type="text" class="form-control" id="vorname" name="vorname" ng-model="vorname" required>
               <p ng-show="myForm.nachname.$touched && myForm.nachname.$invalid">
-				Vorname ist erforderlich</p>
+        Vorname ist erforderlich</p>
           </div>
         </div>
       </div>
@@ -255,7 +267,7 @@
           <div class="col-sm-5">
               <input type="date" class="form-control" id="geburtsdatum" name="geburtsdatum" ng-model="geburtsdatum" placeholder="YYYY-MM-DD" required>
                <p ng-show="myForm.nachname.$touched && myForm.nachname.$invalid">
-		         Geburtsdatum ist erforderlich</p>
+             Geburtsdatum ist erforderlich</p>
           </div>
         </div>
       </div>
@@ -293,7 +305,7 @@
           <div class="col-sm-7">
               <input type="text" class="form-control" id="strasse" name="strasse" ng-model="strasse" required>
               <p ng-show="myForm.strasse.$touched && myForm.strasse.$invalid">
-				Straße ist erforderlich</p>
+        Straße ist erforderlich</p>
           </div>
         </div>
       </div>
@@ -306,7 +318,7 @@
           <div class="col-sm-7">
               <input type="text" class="form-control" id="stadt" name="stadt" ng-model="stadt" required>
               <p ng-show="myForm.stadt.$touched && myForm.stadt.$invalid">
-				Stadt ist erforderlich</p>
+        Stadt ist erforderlich</p>
           </div>
         </div>
       </div>
@@ -317,7 +329,7 @@
           <div class="col-sm-7">
               <input type="email" class="form-control" id="email" name="email" ng-model="email" required>
               <p ng-show="myForm.email.$touched && myForm.email.$invalid">
-				Bitte tragen Sie ein gültiges Email an</p>
+        Bitte tragen Sie ein gültiges Email an</p>
           </div>
         </div>
       </div>
