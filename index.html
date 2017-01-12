@@ -111,7 +111,7 @@
           <h4><label class="col-sm-5">Wert Trailer:</label></h4>
           <div class="col-sm-7">
               <div class="input-group">
-              <input type="text" class="form-control" id="werttrailer" name="werttrailer" ng-model="werttrailer" ng-pattern="/^[0-9]+([,.][0-9]+)?$/" required><span class="input-group-addon">&euro;</span>
+              <input type="text" class="form-control" id="werttrailer" name="werttrailer" ng-model="werttrailer" ng-pattern="/^[0-9]+([,.][0-9]+)?$/" placeholder="0" ><span class="input-group-addon">&euro;</span>
               </div>
                <p ng-show="myForm.werttrailer.$touched && myForm.werttrailer.$invalid">
               Bitte tragen Sie ein Zahl an</p>
@@ -192,7 +192,7 @@
           <h4><label class="col-sm-5">Wert AB:</label></h4>
           <div class="col-sm-7">
             <div class="input-group">
-              <input type="text" class="form-control" id="wertab" name="wertab" ng-model="wertab" ng-pattern="/^[0-9]+([,.][0-9]+)?$/" required>
+              <input type="text" class="form-control" id="wertab" name="wertab" ng-model="wertab" ng-pattern="/^[0-9]+([,.][0-9]+)?$/" placeholder="0" >
               <span class="input-group-addon">&euro;</span>
               </div>
                <p ng-show="myForm.wertab.$touched && myForm.wertab.$invalid">
@@ -342,9 +342,9 @@
 
 <br><br>
    
-            
         </form>
     </body>
     
+
     
 </html>
