@@ -38,12 +38,12 @@
 
         <div class="col-md-5">
         <div class="form-group">
-          <h4><label class="col-sm-5">Marke:</label></h4>
+          <h4><label class="col-sm-5">Hersteller:</label></h4>
           <div class="col-sm-7">
           
-              <input type="text" class="form-control" id="marke" name="marke" ng-model="marke" required>
-              <p ng-show="myForm.marke.$touched && myForm.marke.$invalid">
-        Bitte geben Sie den Mark</p>
+              <input type="text" class="form-control" id="hersteller" name="hersteller" ng-model="hersteller" required>
+              <p ng-show="myForm.hersteller.$touched && myForm.hersteller.$invalid">
+        Bitte geben Sie den Hersteller an</p>
             
           </div>
         </div>
@@ -55,7 +55,7 @@
           <div class="col-sm-7">
               <input type="text" class="form-control" id="modell" name="modell" ng-model="modell" required>
               <p ng-show="myForm.modell.$touched && myForm.modell.$invalid">
-              Bitte geben Sie den Modell</p>
+              Bitte geben Sie das Modell an</p>
           </div>
         </div>
       </div>
@@ -131,7 +131,7 @@
               <input type="text" class="form-control" id="kaufpreis" name="kaufpreis" ng-model="kaufpreis" ng-pattern="/^[0-9]+([,.][0-9]+)?$/" required><span class="input-group-addon">&euro;</span>
               </div>
               <p ng-show="myForm.kaufpreis.$touched && myForm.kaufpreis.$invalid">
-              Bitte tragen Sie ein Zahl an</p>
+              Bitte tragen Sie eine Zahl ein</p>
           </div>
         </div>
       </div>
