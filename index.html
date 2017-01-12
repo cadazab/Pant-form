@@ -189,7 +189,7 @@
       <div class="col-md-5">
         <div class="form-group">
 
-          <h4><label class="col-sm-5">Wert AB:</label></h4>
+          <h4><label class="col-sm-5">Wert Außenborder:</label></h4>
           <div class="col-sm-7">
             <div class="input-group">
               <input type="text" class="form-control" id="wertab" name="wertab" ng-model="wertab" ng-pattern="/^[0-9]+([,.][0-9]+)?$/" placeholder="0" >
@@ -265,7 +265,7 @@
         <div class="form-group">
           <h4><label class="col-sm-5">Geburtsdatum:</label></h4>
           <div class="col-sm-5">
-              <input type="date" class="form-control" id="geburtsdatum" name="geburtsdatum" ng-model="geburtsdatum" placeholder="YYYY-MM-DD" required>
+              <input type="date" class="form-control" id="geburtsdatum" name="geburtsdatum" ng-model="geburtsdatum" placeholder="DD-MM-YYYY" required>
                <p ng-show="myForm.nachname.$touched && myForm.nachname.$invalid">
              Geburtsdatum ist erforderlich</p>
           </div>
