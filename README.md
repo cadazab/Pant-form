@@ -1,10 +1,10 @@
-#Pantaenius Form
+# Pantaenius Form
 
 For use in partners websites.
 The data entered on the form will be sent to Pantaenius.
 to see a preview of the form, please click the following link: [Form](https://cadazab.github.io/Pant-form/)
 
-#Add the Pantaenius form on your website
+# Add the Pantaenius form on your website
 
 Just copy the following code:
 
