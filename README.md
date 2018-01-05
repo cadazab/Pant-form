@@ -26,7 +26,7 @@ And paste it into the desired location within your website.
 </div> 
 
 <!--Pantaenius form-->
-<iframe frameBorder="0" width="1400" height="800" src="https://cadazab.github.io/Pant-form"></iframe>
+<iframe frameBorder="0" width="1500" height="1000" src="https://cadazab.github.io/Pant-form"></iframe>
 
 <div>
 <h1>More content</h1>
