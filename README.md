@@ -9,7 +9,7 @@ to see a preview of the form, please click the following link: [Form](https://ca
 Just copy the following code:
 
 ```html
-<iframe frameBorder="0" width="1400" height="800" src="https://cadazab.github.io/Pant-form"></iframe>
+<iframe frameBorder="0" width="1500" height="1000" src="https://cadazab.github.io/Pant-form"></iframe>
 ```
 
 And paste it into the desired location within your website.
