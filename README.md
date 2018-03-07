@@ -8,10 +8,15 @@ to see a preview of the form, please click the following link: [Form](https://ca
 
 Just copy the following code:
 
+##English as default language
 ```html
-<iframe frameBorder="0" width="1500" height="1000" src="https://cadazab.github.io/Pant-form"></iframe>
+<iframe frameBorder="0" width="1500" height="1000" src="https://cadazab.github.io/Pant-form/eng"></iframe>
 ```
 
+##German as default language
+```html
+<iframe frameBorder="0" width="1500" height="1000" src="https://cadazab.github.io/Pant-form/ger"></iframe>
+```
 And paste it into the desired location within your website.
 
 ## Example:
